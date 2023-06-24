@@ -18,7 +18,7 @@ Our model of choice and methodology could be found [here](http://uc-r.github.io/
 ### What we did to the data
 - Variable selection: features selected according to CCAO presentation [video](https://www.youtube.com/embed/6rd-xYJb27Q?feature=oembed)(17:45)
 - Pre-processing: filling and dropping missing values, dropping features with too many missing values, factorize categorical variables, adding polynomial variables
-- Randomization: testing set-30%, validation set-17.5%, and testing set-52.5%
+- Randomization: testing set-30%, validation set-17.5%, and training set-52.5%
 - Parameter tunning: find hyperparameters, best performing combination of parameters for GBM, to build our pricing model
 - Model evaluation: use performance metrics MSE to evaluate our model
 - Data analytics: summary statistics and distribution of assessed(predicted) values, analyze relative influence of each feature on our model
